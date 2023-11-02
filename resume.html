@@ -1,0 +1,233 @@
+<!doctype html>
+
+<!-- this is a comment for human! -->
+
+<html lang="en">
+
+  <header>
+    <title>E.Q Reusme</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="name" content="Mr depth portal">
+    <meta name="robots" content="noindex, nofollow">
+  </header>
+
+  <body>
+    <hr>
+
+    <img src="images/headshot.jpg" alt="Harrison Kong's headshot" width="35%">
+
+    <h1>EMAD M AL-QUWAFLI</h1>
+    <h4>LLB, Lawyer trainiee, Tech enthused </h4>
+
+    <p>Email: <a href="mailto:e.alquwafli@outlook.com" target="_blank">e.alquwafli@outlook.com</a></p>
+    <!-- don't post physical address, personal phone number or other personal information on the web! -->
+
+    <h2>Linkedin Page</h2>
+      <h3><a href="https://www.linkedin.com/in/e-alquwafli" target="_blank">https://www.linkedin.com/in/e-alquwafli</a></h3>
+
+    <h2>Education</h2>
+
+    <h3>Prince Sattam bin Abdulaziz University, Al-Kharj</h3>
+    <h4>Bachelor in Law</h4>
+    <h5>Graduated in December 2020</h5>
+
+    <h2>Professional Experiences</h2>
+
+    <h3>Trainiee Lawyer </h3>
+    <h4>Mohammed Abdullah Law firm, Riyadh, Saudi Arabia</h4>
+    <h5>November 2021 - Present</h5>
+      <ul >
+        <li class="ffffff-list">Writing memos, drafting and reviewing contracts</li>
+        <li class="ffffff-list">Review documents before submitting them to judges</li>
+        <li class="ffffff-list">Searching for precedents and regulations</li>
+        <li class="ffffff-list">Technical assistance</li>
+      </ul>
+
+    <h3>Mrsool driver</h3>
+    <h4>Mrsool, Saudi Arabia</h4>
+    <h5>January 2021 - October 2021</h5>
+      <ul>
+        <li class="ffffff-list">Delivery of goods, to Mrsool customers</li>
+      </ul>
+
+    <h2>Linguistic knowledge</h2>
+    <h3>Arabic </h3>
+    <h4>Mother Language</h4>
+    <h3>English </h3>
+    <h4>I have a Band 6 on IELTS</h4>
+  </body>
+
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            .certificates {
+                display: none; /* Initially hide both certificate lists */
+            }
+            .courses {
+                display: none; /* Initially hide both certificate lists */
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Course Certificates</h2>
+        <button id="showLegal">Legal certificate</button>
+        <button id="showTech">Tech certificate</button>
+        <button id="showOther">Other certificate</button>
+
+        <div id="legalCertificates" class="certificates">
+            <h3>Legal Certificates:</h3>
+            <ul>
+                <li>Legal pleadings (25 hours) - Qudwa Training Center</li>
+                <li>Contract Drafting (10 hours) - Qudwa Training Center</li>
+                <li>Saudi Labor Law (5 hours) - AL-KHARJ Chamber</li>
+                <li>Legal Regulations and Memorandums Drafting (3 hours) - AL-KHARJ Chamber</li>
+                <li>Legal Procedures before the Judiciary (3 hours) - AL-KHARJ Chamber</li>
+                <li>Judicial Costs System (2 hours) - Al-Sayeh Development Committee</li>
+                <li>Cybercrimes (1 hour) - Athriy Platform</li>
+                <!-- Add more legal certificates here -->
+            </ul>
+        </div>
+
+        <div id="techCertificates" class="certificates">
+            <h3>Tech Certificates:</h3>
+
+            <button id="showFinished">Finished Courses</button>
+            <button id="showUndergoing">Undergoing Courses</button>
+            <button id="showFuture">Future Courses</button>
+
+        </div>
+
+
+        <div id="otherCertificates" class="certificates">
+            <h3>Other Certificates:</h3>
+            <ul>
+                <li>Work Smarter, Not Harder: Personal and Professional Time Management  - UCI through Coursera</li>
+                <li>International English Language Testing System (IELTS) Overview - From Doroob</li>
+                <li>Conversational English Skills for Beginners  - From Doroob</li>
+                <li>English Writing  - From Doroob</li>
+                <!-- Add more tech certificates here -->
+            </ul>
+        </div>
+        <div id="FinishedCourses" class="courses">
+            <h3>Finished Tech Courses:</h3>
+            <ul>
+                <li>Technical Support Fundamentals - Google through Coursera</li>
+                <li>Create Your First Chatbot with Rasa and Python  - From Coursera</li>
+                <li>Computational Fluid Mechanics - Airflow Around a Spoiler  - From Coursera</li>
+                <li>Build Your Portfolio Website with HTML and CSS  - From Coursera</li>
+
+                <!-- Add more tech certificates here -->
+            </ul>
+        </div>
+
+        <div id="UndergoingCourses" class="courses">
+            <h3>Undergoing Tech Courses:</h3>
+            <ul>
+                <li>What is Data Science? - IBM through Coursera</li>
+                <!-- Add more tech certificates here -->
+            </ul>
+        </div>
+        <div id="FutureCourses" class="courses">
+            <h3>Future Tech Courses:</h3>
+            <ul>
+                <h4> In data science</h4>
+                  <ul>
+                    <li>Tools for Data Science - IBM through Coursera</li>
+                    <li>Data Science Methodology - IBM through Coursera</li>
+                    <li>Python for Data Science, AI & Development - IBM through Coursera</li>
+                  </ul>
+                <h4> In computer science</h4>
+                  <ul>
+                    <li>CS50 Harvard</li>
+                  </ul>
+                <!-- Add more tech certificates here -->
+
+            </ul>
+        </div>
+        <script>
+            // Function to toggle the visibility of certificate lists
+            function toggleCertificates(certType) {
+                var legalCertificates = document.getElementById("legalCertificates");
+                var techCertificates = document.getElementById("techCertificates");
+                var otherCertificates = document.getElementById("otherCertificates");
+                var FinishedCourses = document.getElementById("FinishedCourses");
+                var UndergoingCourses = document.getElementById("UndergoingCourses");
+                var FutureCourses = document.getElementById("FutureCourses");
+
+                legalCertificates.style.display = "none";
+                techCertificates.style.display = "none";
+                otherCertificates.style.display = "none";
+                FinishedCourses.style.display = "none";
+                UndergoingCourses.style.display = "none";
+                FutureCourses.style.display = "none";
+
+                if (certType === "legal") {
+                    legalCertificates.style.display = "block";
+                } else if (certType === "tech") {
+                    techCertificates.style.display = "block";
+                }
+                else if (certType === "other") {
+                   otherCertificates.style.display = "block";
+               }
+            }
+
+            // Add click event listeners to the buttons
+            document.getElementById("showLegal").addEventListener("click", function () {
+                toggleCertificates("legal");
+            });
+
+            document.getElementById("showTech").addEventListener("click", function () {
+                toggleCertificates("tech");
+            });
+
+            document.getElementById("showOther").addEventListener("click", function () {
+                toggleCertificates("other");
+            });
+
+            function toggleTechCertificates(certType) {
+              var FinishedCourses = document.getElementById("FinishedCourses");
+              var UndergoingCourses = document.getElementById("UndergoingCourses");
+              var FutureCourses = document.getElementById("FutureCourses");
+
+              FinishedCourses.style.display = "none";
+              UndergoingCourses.style.display = "none";
+              FutureCourses.style.display = "none";
+
+                if (certType === "Finished") {
+                    FinishedCourses.style.display = "block";
+                } else if (certType === "Undergoing") {
+                    UndergoingCourses.style.display = "block";
+
+                } else if (certType === "Future") {
+                    FutureCourses.style.display = "block";
+                }
+
+            }
+
+            // Add click event listeners to the buttons
+            document.getElementById("showFinished").addEventListener("click", function () {
+                toggleTechCertificates("Finished");
+            });
+
+            document.getElementById("showUndergoing").addEventListener("click", function () {
+                toggleTechCertificates("Undergoing");
+            });
+
+            document.getElementById("showFuture").addEventListener("click", function () {
+                toggleTechCertificates("Future");
+            });
+        </script>
+    </body>
+    </html>
+
+  <footer>
+  <hr>
+  <p><a href="index.html">Back to my portal</a><p>
+  </footer>
+
+</html>
